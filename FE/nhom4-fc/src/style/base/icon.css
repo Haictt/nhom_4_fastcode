@@ -1,0 +1,146 @@
+.m-icon {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.m-icon::before {
+  content: '';
+  position: absolute;
+  background: transparent no-repeat;
+  background-image: url(@/assets/icons/sprites.svg);
+  height: 24px;
+  width: 24px;
+  top: 0;
+  left: 0;
+}
+
+.m-icon.filter::before {
+  background-position: -96px -48px;
+}
+.m-icon.search::before {
+  background-position: -289px -24px;
+}
+.m-icon.add-white::before {
+  background-position: -192px -96px;
+}
+.m-icon.add-white::before {
+  background-position: -192px -96px;
+}
+.m-icon.notify::before {
+  background-position: -24px -48px;
+}
+.m-icon.help::before {
+  background-position: -48px -48px;
+}
+.m-icon.setting::before {
+  background-position: -264px -168px;
+}
+.move::before {
+  background-position: -240px 0;
+}
+.m-icon.move.disabled {
+  opacity: 0.4;
+}
+.m-icon.move.prev {
+  transform: rotate(-180deg);
+}
+.m-icon.close::before {
+  background-position: -240px -24px;
+}
+.m-icon.combo--dropdown::before {
+  background-position: -144px -48px;
+}
+.m-icon.decision--default::before {
+  background-image: url(../../assets/icons/ic_decision_menu_default.svg);
+  width: 24px;
+  height: 24px;
+}
+.m-icon.decision::before {
+  background-image: url(../../assets/icons/ic_decision_menu.svg);
+  width: 24px;
+  height: 24px;
+}
+
+.m-icon.document::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -384px 0px;
+}
+.m-icon.dashboard--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: 0px 0px;
+}
+.m-icon.dashboard::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: 0px -24px;
+}
+.m-icon.movement--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -48px 0px;
+}
+.m-icon.movement::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -48px -24px;
+}
+.m-icon.reward--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -72px 0px;
+}
+.m-icon.reward::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -72px -24px;
+}
+.m-icon.profile--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -24px 0px;
+}
+.m-icon.profile::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -24px -24px;
+}
+.m-icon.arrow-right--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -168px 0px;
+}
+.m-icon.arrow-right::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -168px -24px;
+}
+.m-icon.search--black::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -192px -24px;
+}
+.m-icon.search--active::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -216px -24px;
+}
+.m-icon.report--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -96px 0;
+}
+.m-icon.report::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -96px -24px;
+}
+.m-icon.category--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -120px 0;
+}
+.m-icon.category::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -120px -24px;
+}
+.m-icon.system--default::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -144px 0;
+}
+.m-icon.system::before {
+  background: url(@/assets/icons/CeGo_Sprites.svg);
+  background-position: -144px -24px;
+}
+.m-icon.guide--default::before {
+  background: url(../../assets/icons/ic_guide_default.svg);
+}
+.m-icon.guide::before {
+  background: url(../../assets/icons/ic_guide.svg);
+}

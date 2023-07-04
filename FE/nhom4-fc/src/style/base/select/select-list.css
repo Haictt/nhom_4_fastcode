@@ -1,0 +1,43 @@
+.m-select-list {
+  box-sizing: border-box;
+  padding: 7px;
+  min-width: 100%;
+  max-height: calc(14px + var(--number-of-elements) * 36px);
+  outline: none;
+}
+
+.m-select-item {
+  position: relative;
+  box-sizing: border-box;
+  padding: 7px;
+  height: 36px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+  color: black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.m-select-item.focused {
+  background-color: #e6e6e6;
+}
+
+.m-select-item.selected::before {
+  content: '';
+  position: absolute;
+  background: transparent url(@/assets/icons/sprites.svg) no-repeat -192px -24px;
+  height: 24px;
+  width: 24px;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+}
+
+.m-select-item:hover {
+  background-color: #e6e6e6;
+}
