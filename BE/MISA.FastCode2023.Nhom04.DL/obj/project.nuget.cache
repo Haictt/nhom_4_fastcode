@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "EYi6hHBM7/9YfCqzKfwyQJnHqvj1EhH9vj3x3q4wLlU+ORqKdGO4cQk2Nl4BQCfwX5uDPjdqRI/oY6bkmcz1Gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\MISA.FastCode2023.Nhom04\\MISA.FastCode2023.Nhom04.DL\\MISA.FastCode2023.Nhom04.DL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\mysqlconnector\\2.2.6\\mysqlconnector.2.2.6.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.deps.json
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.pdb
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.DL.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.pdb
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.DL.pdb
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.AssemblyInfo.cs
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.csproj.CopyComplete
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\refint\MISA.FastCode2023.Nhom04.BL.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.BL.pdb
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom4.BL\obj\Debug\net6.0\ref\MISA.FastCode2023.Nhom04.BL.dll
