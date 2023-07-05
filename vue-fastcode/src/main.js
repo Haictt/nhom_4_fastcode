@@ -1,3 +1,6 @@
+import './style/base/index.css';
+import './style/layout/index.css';
+
 import router from '@/router/router.js';
 import axios from 'axios';
 import emitter from 'tiny-emitter/instance';
