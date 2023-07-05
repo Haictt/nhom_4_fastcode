@@ -22,8 +22,9 @@
 export default {
   name: 'MCheckbox',
   props: {
-    modelValue: Boolean, // Giá trị checked của check box
+    modelValue: [String, Number], // Giá trị của radio
     temp: Boolean,
+    value: [String, Number], // Giá trị của radio
     tabIndex: {
       type: Number,
       required: false   // Mặc định: -1
