@@ -34,6 +34,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: 'TopicCreateForm',
   props: {
@@ -76,6 +77,9 @@ export default {
     },
     save() {
       console.log(this.form)
+      axios.post('', this.form)
+        .then(res => res.status === 201 ? this.$emit('close') : console.log(res.data))
+        .catch(e => console.log(e))
     }
   },
   watch: {
