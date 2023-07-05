@@ -57,6 +57,12 @@
 .m-icon.combo--dropdown::before {
   background-position: -144px -48px;
 }
+.m-icon.reload--icon::before{
+  background-image: url(../../assets/icon/icons8-reload-30.png);
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+}
 .m-icon.decision--default::before {
   background-image: url(../../assets/icons/ic_decision_menu_default.svg);
   width: 24px;
