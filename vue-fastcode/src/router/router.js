@@ -2,7 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router';
 import CustomerList from '@/views/customer/CustomerList.vue'
 import ReportList from '@/views/report/ReportList.vue'
 import SettingIndex from '@/views/setting/SettingIndex.vue'
-import HomePage from '@/views/Index.vue'
+import HomePage from '@/components/base/HomePage.vue'
 import DiscussList from '@/views/discuss/DiscussList.vue'
 
 const routers = [

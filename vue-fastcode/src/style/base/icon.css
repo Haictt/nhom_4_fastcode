@@ -15,6 +15,12 @@
   left: 0;
 }
 
+.add-user-icon{
+  background-image: url('../../assets/icon/add.png');
+  height: 24px;
+  width: 24px;
+}
+
 .m-icon.filter::before {
   background-position: -96px -48px;
 }
