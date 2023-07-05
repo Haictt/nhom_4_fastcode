@@ -2,7 +2,7 @@
   <div>
     <MisaToolbar></MisaToolbar>
 
-    <div>
+    <div  class="discussion-container">
       <MTToolbar float="right">
         <template v-slot:left>
           <MTextField placeholder="" right-icon="m-icon search" />
@@ -101,12 +101,18 @@ export default {
 </script>
 
 <style scoped>
+
+.discussion-container{
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    height: 500px;
+}
 .question-item {
   display: flex;
   align-items: center;
   column-gap: 16px;
   height: 40px;
-  padding: 30px 20px;
+  padding: 30px 10px;
 }
 
 .question-detail-container {
@@ -124,6 +130,7 @@ export default {
 
 .question-title {
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 .comment-icon {
