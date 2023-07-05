@@ -150,5 +150,6 @@ export default {
 .question-replier {
   display: flex;
   column-gap: 16px;
+  font-size: 12px;
 }
 </style>
