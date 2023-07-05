@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MISA.FastCode2023.Nhom04.API.props" />
+</Project>

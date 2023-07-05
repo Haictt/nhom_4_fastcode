@@ -1,0 +1,14 @@
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.deps.json
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\bin\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.pdb
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.MISAResource.resources
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.csproj.GenerateResource.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.AssemblyInfo.cs
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\refint\MISA.FastCode2023.Nhom04.Common.dll
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\MISA.FastCode2023.Nhom04.Common.pdb
+C:\Users\ACER\source\repos\MISA.FastCode2023.Nhom04\MISA.FastCode2023.Nhom04.Common\obj\Debug\net6.0\ref\MISA.FastCode2023.Nhom04.Common.dll
