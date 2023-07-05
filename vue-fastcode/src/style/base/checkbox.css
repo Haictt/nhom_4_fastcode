@@ -1,0 +1,87 @@
+.m-checkbox {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  outline: none;
+}
+
+.m-checkbox:has(.checkbox-text:not(:empty)) {
+  width: max-content;
+}
+
+/* Ẩn input checkbox*/
+.m-checkbox input {
+  display: none;
+}
+
+.checkbox-text {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 4px;
+}
+
+/* CSS khi input unchecked */
+.m-checkbox .checked {
+  flex: 0 0 24px;
+  display: none;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-checkbox .unchecked {
+  flex: 0 0 24px;
+  display: flex;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-checkbox .unchecked:hover {
+  color: unset;
+}
+
+/* CSS khi input được checked */
+.m-checkbox:has(input:checked) .checked {
+  display: flex;
+}
+
+.m-checkbox:has(input:checked) .unchecked {
+  display: none;
+}
+
+/* Icon */
+.checkmark {
+  display: inline-block;
+  background: url(@/assets/icons/checkbox/ic_checkbox_gray.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.m-checkbox:focus-within .checkmark,
+.m-checkbox:hover .checkmark {
+  background: url(@/assets/icons/checkbox/ic_checkbox_hover.svg) no-repeat;
+}
+
+.m-checkbox .checked .checkmark {
+  background: url(@/assets/icons/checkbox/ic_checkbox_active.svg) no-repeat;
+}
+
+.checkmark-temp {
+  display: inline-block;
+  background: url(@/assets/icons/CeGo_Sprites.svg) no-repeat;
+  background-position: -544px -144px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}

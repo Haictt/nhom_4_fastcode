@@ -1,0 +1,31 @@
+.scrollbar {
+  overflow: auto;
+  overflow: overlay;
+}
+
+/* Thanh cuộn */
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+/* Các nút trên thanh cuộn (mũi tên hướng lên trên và hướng xuống dưới) */
+.scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+/* Tay cầm cuộn có thể kéo được */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #9e9e9e;
+  border-radius: 4px;
+}
+/* Rãnh (thanh tiến trình) của thanh cuộn */
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* Rãnh (thanh tiến trình) KHÔNG bị tay cầm bao phủ */
+.scrollbar::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+/* Góc dưới cùng của thanh cuộn, nơi giao nhau của cả thanh cuộn ngang và dọc */
+.scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}

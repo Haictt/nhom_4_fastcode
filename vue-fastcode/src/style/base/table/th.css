@@ -1,0 +1,30 @@
+.m-th {
+  box-sizing: border-box;
+  padding: 0 16px;
+  color: var(--grey-900);
+  border-bottom: 1px solid var(--grey-300);
+  border-right: 1px solid var(--grey-300);
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.m-th:last-child {
+  border-right: none;
+}
+
+.m-th > * {
+  vertical-align: middle;
+}
+
+.m-th-resize {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(50%);
+  background-color: transparent;
+
+  cursor: col-resize;
+  width: 8px;
+  height: 100%;
+}

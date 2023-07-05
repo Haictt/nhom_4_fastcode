@@ -1,0 +1,59 @@
+@import url(./palette.css);
+@import url(./font.css);
+@import url(./icon.css);
+@import url(./scrollbar.css);
+
+@import url(./select/dropdown-toggle.css);
+@import url(./select/select-list.css);
+@import url(./select/select.css);
+
+@import url(./table/th.css);
+@import url(./table/toolbar.css);
+@import url(./table/paging.css);
+@import url(./table/table.css);
+
+@import url(./button.css);
+@import url(./checkbox.css);
+@import url(./combobox.css);
+@import url(./form.css);
+@import url(./textfield/input.css);
+@import url(./textfield/textfield.css);
+@import url(./textarea.css);
+
+@import url(./toast.css);
+@import url(./dialog.css);
+@import url(./popup.css);
+
+.text-align--center {
+  text-align: center;
+}
+.text-align--left {
+  text-align: left;
+}
+.text-align--right {
+  text-align: right;
+}
+.flex--row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.flex--column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.flex--center {
+  align-items: center;
+}
+.flex-1 {
+  flex: 1;
+}
+
+:root {
+  /* Màu cơ bản*/
+  --primary-color: #2979ff;
+  --secondary-color: #e0e0e0;
+  --info-color: var(--blue-500);
+  --success-color: var(--light-green-500);
+  --warning-color: var(--orange-500);
+  --error-color: var(--red-500);
+}
