@@ -17,12 +17,12 @@
       <MButton variant="primary" text="Trả lời" color="primary" @click="replyFormOpen = true"></MButton>
     </div>
     <div class="comment-list">
-      <div class="comment-item">
+      <div v-for="item in commentList" class="comment-item" :key="item['CommentId']">
         <div>
-          <div class="comment-name"></div>
-          <div class="comment-time"></div>
+          <div class="comment-name">{{ item['UserName'] }}</div>
+          <div class="comment-time">{{ item['CreateDate'] }}</div>
         </div>
-        <div class="comment-content"></div>
+        <div class="comment-content">{{ item['CommentContent'] }}</div>
       </div>
     </div>
   </div>
@@ -41,6 +41,10 @@ export default {
       commentList: []
     }
   },
+  mounted() {
+    this.commentList = [];
+    this.loadComment()
+  },
   methods: {
     loadComment() {
       // const offset = this.commentList.length;
@@ -51,4 +55,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped></style>

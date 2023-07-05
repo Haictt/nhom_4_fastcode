@@ -14,7 +14,10 @@
 </template>
 
 <script>
+import TopicCreateForm from './TopicCreateForm.vue';
 export default {
+  name: 'MisaToolbar',
+  components: { TopicCreateForm },
   data() {
     return {
       formOpen: false,
