@@ -3,7 +3,7 @@
     <MisaToolbar></MisaToolbar>
 
     <div>
-      <MTToolbar float="right" :actions="countChecked > 0">
+      <MTToolbar float="right">
         <template v-slot:left>
           <MTextField placeholder="" right-icon="m-icon search" />
         </template>
@@ -18,16 +18,24 @@
         <template v-slot:actions> </template>
       </MTToolbar>
 
-      <div>
+      <div v-for="(question, index) in questions" :key="index">
         <div class="question-item">
-          <div class="question-icon"></div>
+          <div>
+            <div class="question-icon" v-if="question.TopicType === $_MISAEnum.TOPICTYPE.Question"></div>
+            <div class="share-icon" v-if="question.TopicType === $_MISAEnum.TOPICTYPE.Share"></div>
+            <div class="comment-icon" v-if="question.TopicType === $_MISAEnum.TOPICTYPE.Discussion"></div>
+          </div>
           <div class="question-detail-container">
-            <div class="question-title">
-              Cần giúp đỡ về việc sử dụng thuộc tính flex
+            <div class="question-title" @click="!isShowDetails">
+              {{ question.Username }}
             </div>
             <div class="question-replier">
-              <div class="replier">Nguyễn Văn Mạnh</div>
-              <div class="number-of-question">Đã trả lời: 100</div>
+              <div class="replier">
+                {{ question.TopicTitle }}
+              </div>
+              <div class="number-of-question">
+                Đã trả lời: {{ question.NumberOfQuestion }}
+              </div>
             </div>
           </div>
         </div>
@@ -42,16 +50,53 @@ export default {
   components: {
     MisaToolbar,
   },
-  methods: {
-    loadData(){
-        fetch("https://cukcuk.manhnv.net/api/v1/Customers")
-        .then((res) => res.json())
-        .then((data) => {
-          this.assets = data;
-          this.isLoading = false;
-        });
-    }
-  }
+  mounted() {
+    // fetch("http://10.0.135.39:8080/")
+    // .then((res) => res.json())
+    // .then((data) => {
+    //   this.questions = data;
+    // });
+    this.questions = [
+      {
+        TopicId: 0,
+        Username: "Hai",
+        TopicType: 2,
+        TopicTitle: "Jhin",
+        TopicContent: null,
+        NumberOfQuestion: 100,
+      },
+      {
+        TopicId: 1,
+        Username: "Lee Sinn",
+        TopicType: 1,
+        TopicTitle: "Cách để đẩy dữ liệu lên Git",
+        TopicContent: null,
+        NumberOfQuestion: 70,
+      },
+      {
+        TopicId: 3,
+        Username: "Vayne",
+        TopicType: 3,
+        TopicTitle: "Cách để thắng FastCode",
+        TopicContent: null,
+        NumberOfQuestion: 80,
+      },
+      {
+        TopicId: 2,
+        Username: "Yasuo",
+        TopicType: 2,
+        TopicTitle: "Cách để học hiệu quả ?",
+        TopicContent: null,
+        NumberOfQuestion: 60,
+      },
+    ];
+  },
+  data() {
+    return {
+      questions: [],
+      isShowDetails: false,
+    };
+  },
 };
 </script>
 
@@ -79,6 +124,20 @@ export default {
 
 .question-title {
   color: var(--color-primary);
+}
+
+.comment-icon {
+  background-image: url(../../assets/icon/discuss-32.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+.share-icon {
+  background-image: url(../../assets/icon/share-64.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
 }
 
 .question-replier {
