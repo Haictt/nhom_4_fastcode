@@ -1,0 +1,24 @@
+.m-form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.m-form-label {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  height: 20px;
+  margin-bottom: 8px;
+  padding: 0;
+  width: auto;
+}
+.m-form-label .required {
+  color: #e54848;
+  margin-left: 5px;
+}
+
+.m-form-error-text {
+  color: #ef5350;
+  margin-top: 6px;
+}
