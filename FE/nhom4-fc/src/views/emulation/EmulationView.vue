@@ -3,15 +3,17 @@
     <div class="emulation-title">Danh hiệu thi đua</div>
     <div class="emulation-container">
       <EmulationList></EmulationList>
+      <MToastContainer></MToastContainer>
     </div>
   </section>
 </template>
 
 <script>
+import MToastContainer from '@/components/toast/MToastContainer.vue';
 import EmulationList from '../../views/emulation/EmulationList.vue'
 export default {
   name: 'EmulationView',
-  components: { EmulationList }
+  components: { EmulationList, MToastContainer }
 }
 </script>
 

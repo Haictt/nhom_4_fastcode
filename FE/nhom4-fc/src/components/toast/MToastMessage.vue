@@ -22,6 +22,9 @@ export default {
       require: false
     }
   },
-  emits: ['close']
+  emits: ['close'],
+  mounted() {
+    setTimeout(() => { this.$emit('close') }, 5000);
+  }
 }
 </script>
